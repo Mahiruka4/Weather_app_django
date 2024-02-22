@@ -15,7 +15,9 @@ The following is a basic workflow that you can use as a quick reference for deve
 ### Setup
 
 1.pip install -r requirements.txt
+
 2.create env
+
 3.python manage.py runserver
 
 ### Add Basic URLs and Views
