@@ -13,12 +13,10 @@ This repository implements a weather app that uses Open Weather API and Django a
 The following is a basic workflow that you can use as a quick reference for developing a Django Project.
 
 ### Setup
-1. Within a new directory, create and activate a virtualenv.
-2. Install Django.
-3. Create your project: <pre> django-admin.py startproject <name> </pre>
-4. Create a new app:<pre> python manage.py startapp <appname> </pre>
-5. Add your app to the INSTALLED_APPS tuple.
 
+1.pip install -r requirements.txt
+2.create env
+3.python manage.py runserver
 
 ### Add Basic URLs and Views
 1. Map your Project’s urls.py file to the new app.
